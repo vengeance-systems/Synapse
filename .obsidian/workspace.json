@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "1b76ef604e5680be",
+    "type": "split",
+    "children": [
+      {
+        "id": "77213b76a2027327",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f2e94f19cba25e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System/OpenCode Workspace & Memory Protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OpenCode Workspace & Memory Protocol"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f19898d1553338d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b28490a983db59a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47e23a7de6e61529",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "96fe56114ae5f500",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "aa3292b131aa5836",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e54b0b2dc5b747f",
+    "type": "split",
+    "children": [
+      {
+        "id": "368004bd92cd23e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "277c602c11f91ce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System/OpenCode Workspace & Memory Protocol.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for OpenCode Workspace & Memory Protocol"
+            }
+          },
+          {
+            "id": "c848a6e588d64d5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "System/OpenCode Workspace & Memory Protocol.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from OpenCode Workspace & Memory Protocol"
+            }
+          },
+          {
+            "id": "183889231249cf79",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5a562ebb310cb5d3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e3c2684804e3da67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "System/OpenCode Workspace & Memory Protocol.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of OpenCode Workspace & Memory Protocol"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9f2e94f19cba25e8",
+  "lastOpenFiles": []
+}
