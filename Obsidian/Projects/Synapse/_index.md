@@ -33,3 +33,4 @@ tags:
 
 - [[System/OpenCode Workspace & Memory Protocol]] — The foundational protocol that governs all AI vault interaction
 - [[Memory/_README]] — Long-term knowledge index
+- [[Knowledge/_index]] — External reference documentation

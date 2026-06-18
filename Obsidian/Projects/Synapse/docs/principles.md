@@ -22,6 +22,12 @@ Direct filesystem access triggers permission prompts and bypasses the vault abst
 ### Why WikiLinks over file paths?
 WikiLinks survive vault restructuring. They also render as clickable connections in Obsidian's graph view, turning the vault into a navigable network rather than a folder tree.
 
+### Why a Knowledge Base separate from Memory?
+Memory is personal — preferences, tool locations, cross-session patterns. Knowledge is authoritative — full external specs, protocols, documentation. Keeping them separate prevents Memory from bloating and ensures Knowledge can be treated as ground truth over external sources.
+
+### Why Knowledge Base is ground truth?
+External sources (web forums, blog posts, LLM training data) can be stale or inaccurate. The Knowledge Base is compiled deliberately from authoritative sources. Trust it first; if it conflicts with an external source, flag the discrepancy rather than silently overriding the vault.
+
 ### Why no per-session changelogs?
 Changelogs are for significant milestones and GitHub commits. Session context is ephemeral and belongs in `Memory/` where it can be consolidated, not appended to a growing changelog file.
 

@@ -6,7 +6,92 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:type/index",
+      "color": {
+        "a": 1,
+        "rgb": 3609144
+      }
+    },
+    {
+      "query": "tag:type/architecture",
+      "color": {
+        "a": 1,
+        "rgb": 7923237
+      }
+    },
+    {
+      "query": "tag:type/reference",
+      "color": {
+        "a": 1,
+        "rgb": 9211535
+      }
+    },
+    {
+      "query": "tag:type/spec",
+      "color": {
+        "a": 1,
+        "rgb": 11572206
+      }
+    },
+    {
+      "query": "tag:type/workflow",
+      "color": {
+        "a": 1,
+        "rgb": 14375530
+      }
+    },
+    {
+      "query": "tag:type/guide",
+      "color": {
+        "a": 1,
+        "rgb": 14857058
+      }
+    },
+    {
+      "query": "tag:type/changelog",
+      "color": {
+        "a": 1,
+        "rgb": 14707469
+      }
+    },
+    {
+      "query": "tag:type/progress",
+      "color": {
+        "a": 1,
+        "rgb": 14900520
+      }
+    },
+    {
+      "query": "tag:type/development",
+      "color": {
+        "a": 1,
+        "rgb": 7334778
+      }
+    },
+    {
+      "query": "tag:type/protocol",
+      "color": {
+        "a": 1,
+        "rgb": 9419801
+      }
+    },
+    {
+      "query": "tag:type/knowledge",
+      "color": {
+        "a": 1,
+        "rgb": 16767063
+      }
+    },
+    {
+      "query": "tag:type/memory",
+      "color": {
+        "a": 1,
+        "rgb": 7857981
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,

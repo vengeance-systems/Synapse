@@ -17,7 +17,7 @@ tags:
 ## Organizing Content
 
 ### When adding a new note:
-1. Place it in the right folder (`Projects/<Name>/`, `Memory/`, etc.)
+1. Place it in the right folder (`Projects/<Name>/`, `Memory/`, `Knowledge/`, etc.)
 2. Add `type/*` frontmatter tag for graph coloring (see protocol §5)
 3. Add a `domain/*` tag to indicate scope (vault, project, cross-cutting)
 4. Add relevant `project/*` tags if it relates to specific projects
@@ -30,6 +30,14 @@ tags:
 4. Create `Projects/<Name>/Tech Stack/` for technology documentation
 5. Add a `docs/` subdirectory for user-facing docs
 6. Link `_index → docs/` for graph view connectivity
+
+## Knowledge Base
+
+The `Knowledge/` directory holds comprehensive external reference material — tool docs, specs, and protocols. Unlike `Memory/` (personal preferences), Knowledge is for full-depth lookup material.
+
+- Browse all registered domains at [[Knowledge/_index|Knowledge Base Hub]]
+- When the AI needs to look up how a tool works, it checks `Knowledge/` first
+- New domains follow the compilation blueprint at [[Knowledge/Knowledge Compilation/_index|Knowledge Compilation Blueprint]]
 
 ## AI Sessions
 

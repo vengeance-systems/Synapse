@@ -5,7 +5,6 @@ tags:
   - domain/vault
   - audience/all
 ---
-
 # Synapse Architecture
 
 ## Overview
@@ -29,6 +28,11 @@ Synapse is the meta-system that governs this Obsidian vault. It is both:
 │   ├── PC/                    ← Hardware & environment
 │   ├── Patterns/              ← Reusable patterns
 │   └── Projects/              ← Project-specific memory
+├── Knowledge/                 ← External reference documentation (tool docs, specs, protocols)
+│   ├── _index.md              ← Knowledge Base hub
+│   └── <Domain>/              ← Individual knowledge domains
+│       ├── _index.md          ← Domain hub
+│       └── ...                ← Reference docs
 └── Projects/                  ← Project documentation
     ├── Synapse/               ← This project (the vault itself)
     └── <Project Name>/        ← Add projects here
@@ -62,7 +66,7 @@ Tools are prefixed with a vault namespace (e.g., `obsidian-vault_`):
 
 ## Obsidian Configuration
 
-- **Graph view**: Color groups in `.obsidian/graph.json` map `type/*` frontmatter tags to specific colors (11 groups total)
+- **Graph view**: Color groups in `.obsidian/graph.json` map `type/*` frontmatter tags to specific colors (12 groups total)
 - **Type tag system**: Every note must have a `type/*` tag for graph color coding (see protocol §5)
 - **WikiLinks**: Primary cross-referencing format (`[[Link]]`)
 - **Badge system**: Color-coded inline badges for cross-project references and field metadata
@@ -75,7 +79,7 @@ Every AI session follows a strict startup sequence:
 1. Read `System/OpenCode Workspace & Memory Protocol.md`
 2. Search and read `Memory/` for preferences, tools, and patterns
 3. Load the relevant project's `Workspace.md` and `Architecture.md`
-4. Search project notes for specific context
+4. Search project notes and **Knowledge Base** for pre-compiled reference material
 5. Fill knowledge gaps by searching the codebase, then document in vault
 
 ---

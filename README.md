@@ -9,10 +9,9 @@
 ├── Obsidian/              ← The Obsidian vault (open this folder in Obsidian)
 │   ├── System/            ← Meta-instructions & vault protocols
 │   ├── Memory/            ← Long-term cross-session knowledge
+│   ├── Knowledge/         ← External reference documentation
 │   └── Projects/          ← Project-specific documentation
-│       ├── Synapse/       ← Vault system itself
-│       ├── Sentinel Flow/ ← Project A
-│       └── VGOS/          ← Project B
+│       └── <Project>/     ← Add projects here
 ├── .gitignore
 └── README.md
 ```
@@ -25,9 +24,9 @@
 
 ## Stack
 
-- **Obsidian** — Note-taking app with graph view
-- **MCP Vault** — Server exposing the vault via MCP tools
-- **OpenCode** — AI assistant consuming the vault
+- **Obsidian** — Note-taking app with graph view, type-tag color groups, WikiLinks
+- **MCP Vault** — Server exposing the vault via MCP tools (read_note, write_note, search_notes, etc.)
+- **OpenCode** — AI assistant consuming the vault through MCP tools and the session protocol
 
 ## License
 

@@ -21,7 +21,8 @@ Synapse is an Obsidian vault system designed as a persistent knowledge base that
 
 ```
 System/         ← Rules for AI (read this first)
-Memory/         ← What the AI knows about preferences, tools, patterns
+Memory/         ← Preferences, tools, patterns (personal)
+Knowledge/      ← External reference docs, specs, protocols (reference)
 Projects/       ← Actual work (each project gets a folder)
 ```
 
